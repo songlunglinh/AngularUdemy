@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="directivesModule">
+<head>
+  <title>Angular Directive</title>
+</head>
+<body ng-controller="StudentsController">
+
+  <h2>Shared Scope Directive</h2>
+  <shared-scope></shared-scope>
+  <h2>Isolate Scope directive</h2>
+  <isolate-scope></isolate-scope>
+  <h2>Isolate Scope With String</h2>
+  <isolate-scope-with-string name="{{student.name}}"></isolate-scope-with-string>
+  <h2>Isolate Scope With Object</h2>
+  <isolate-scope-with-object dataSource="student"></isolate-scope-with-object>
+  <script src="app/bower_components/angular/angular.min.js"></script>
+  <script src="app/lib/directivesController.js"></script>
+  <script src="app/lib/sharedScopeDirective.js"></script>
+  <script src="app/lib/isolateScopeDirective.js"></script>
+  <script src="app/lib/isolateScopeWithStringDirective.js"></script>
+  <script src="app/lib/isolateScopeWithObjectDirective.js"></script>
+</body>
+</html>
