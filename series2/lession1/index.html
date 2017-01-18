@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="codecraft">
+<head>
+  <title>Lists Of Things</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Lists Of Things</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container main-content" ng-controller="PersonController">
+    <table class="table table-bordered">
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Birhday</th>
+      </tr>
+      <tr ng-repeat="person in persons">
+        <td>{{$index}}</td>
+        <td>{{person.name}}</td>
+        <td>{{person.email}}</td>
+        <td>{{person.birthday}}</td>
+      </tr>
+    </table>
+  </div>
+  <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

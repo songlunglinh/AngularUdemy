@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<title>AngularJS</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body>
+	<div class="container" ng-init="title='Huynh Ngoc Tu'; awesome=true;">
+		<h1>{{title}}</h1>
+		<input type="text" class="form-control" ng-model="title">
+		<input type="checkbox" class="form-control" ng-model="awesome">
+	</div>
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+</body>
+</html>
