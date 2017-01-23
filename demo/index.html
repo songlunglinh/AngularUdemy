@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AngularJS</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body ng-app="myApp" ng-controller="MainCtrl">
+  <input type="text" ng-model="test">
+  <div class="container">
+    <ul>
+      <li><a href="#/">Home</a></li>
+      <li><a href="#/show">Show</a></li>
+    </ul>
+    <div ng-view></div>
+  </div>
+
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="lib/js/app.js"></script>
+  <script type="text/javascript" src="lib/js/service.js"></script>
+  <script type="text/javascript" src="lib/js/directive1.js"></script>
+  <script type="text/javascript" src="lib/js/controller.js"></script>
+</body>
+</html>

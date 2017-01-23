@@ -1,0 +1,57 @@
+<script src="scripts/directives/topnav.js"></script>
+<script src="scripts/controllers/contact.js"></script>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project Manager</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+
+    <link rel="stylesheet" href="styles/main.css">
+
+  </head>
+  <body ng-app="bookApp">
+
+    <div class="container">
+      <!-- Start Navigation -->
+      <top-nav></top-nav>
+
+      <div id="ng-view" ng-view></div>
+      <div class="footer">
+        <div class="container">
+          <p><span class="fa fa-copyright" aria-hidden="true"></span> by songlunglinh</p>
+        </div>
+      </div>
+    </div>
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/contact.js"></script>
+    <script src="scripts/directives/topnav.js"></script>
+</body>
+</html>

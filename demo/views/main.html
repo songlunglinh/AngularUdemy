@@ -1,0 +1,12 @@
+<div ng-controller="MainCtrl">
+  <table class="table table-default">
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+    </tr>
+    <tr ng-repeat="student in students | filter : test">
+      <td>{{student.name}}</td>
+      <td>{{student.address}}</td>
+    <tr>
+  </table>
+</div>
