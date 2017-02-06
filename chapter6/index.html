@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Employee Manager</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div ng-controller = 'NavigationCtrl' >
+			     <div class="activityArea" ng-include = 'templateName' ></div>
+		  </div>
+      <ng-view></ng-view>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="app.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/routing.js"></script>
+    <script src="js/service.js"></script>
+    <script type="text/javascript" src = "js/directives.js" ></script>
+    <script src="js/filters.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="apCtl">
+  <head>
+    <meta charset="utf-8">
+    <title>Chapter6</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#/">Employee Manager</a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav-toggle">
+         <ul class="nav navbar-nav">
+           <li ng-class="pageClass('#/')"><a href="#/">Browse</a></li>
+           <li ng-class="pageClass('#/add-employee')"><a href="#/add-employee">Add Employee</a></li>
+           <li ng-class="pageClass('#/employee')"><a href="#/employee">Employee</a></li>
+           <li ng-class="pageClass('#/about')"><a href="#/about">About</a></li>
+         </ul>
+         <form class="navbar-form navbar-right" role="search">
+           <input type="text" class="form-control" placeholder="Search" ng-model="search" ng-keyup="startSearch()">
+         </form>
+       </div>
+      </nav>
+
+      <ng-view></ng-view>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/factory.js"></script>
+    <script src="js/controller.js"></script>
+  </body>
+</html>

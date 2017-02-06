@@ -1,0 +1,104 @@
+<div>
+	<div class="page-header row" >
+		<h1>
+			<!-- <img src="http://placehold.it/50x50" class="img-circle"> -->
+			<div class="inline pR30" gravtar email="{{ user.email }}" size="50" class="imgcircle"></div>{{ user.name }}
+		</h1>
+	</div>
+
+	<form class="form-horizontal" >
+		<div class="row" >
+			<div class="col-xs-12" >
+
+				<!-- Name -->
+				<div class="form-group row" >
+					<label for="name" class="control-label col-sm-4" >Name</label>
+
+					<div class="col-sm-8" >
+
+						<div editable="user.name" field-type="text"></div>
+						<!-- <p class="form-control-static" > {{ user.name }} --> <!-- <button class="btn btn-default btn-xs" >Edit</button></p> -->
+
+					</div>
+				</div>
+
+				<!-- Phone Number -->
+				<div class="form-group row" >
+					<label for="address" class="control-label col-sm-4" >Address</label>
+					<div class="col-sm-8" >
+						<div editable="user.address" field-type="text"></div>
+						<!-- <p class="form-control-static" > {{ user.phone }} <button class="btn btn-default btn-xs" >Edit</button></p> -->
+					</div>
+				</div>
+
+				<!-- Address -->
+				<div class="form-group row" >
+					<label for="email" class="control-label col-sm-4" >Email</label>
+					<div class="col-sm-8" >
+						<div editable="user.email" field-type="text"></div>
+						<!-- <p class="form-control-static inline" ng-bind-html = 'user.address | paragraph'></p><button class="btn btn-default btn-xs" >Edit</button> -->
+					</div>
+				</div>
+
+				<!-- email -->
+				<div class="form-group row" >
+					<label for="phone" class="control-label col-sm-4" >Phone</label>
+					<div class="col-sm-8" >
+						<div editable="user.phone" field-type="text"></div>
+						<!-- <p class="form-control-static" > {{ user.email }} <button class="btn btn-default btn-xs" >Edit</button></p> -->
+					</div>
+				</div>
+
+				<!-- website -->
+				<div class="form-group row" >
+					<label for="age" class="control-label col-sm-4" >Age</label>
+					<div class="col-sm-8" >
+						<div editable="user.age" field-type="text"></div>
+						<!-- <p class="form-control-static" > {{ user.website }} <button class="btn btn-default btn-xs" >Edit</button></p> -->
+					</div>
+				</div>
+
+				<!-- notes -->
+				<div class="form-group row" >
+					<label for="sex" class="control-label col-sm-4" >Sex</label>
+					<div class="col-sm-8" >
+						<div editable="user.sex" field-type="text"></div>
+						<!-- <p class="form-control-static" > {{ user.notes }} <button class="btn btn-default btn-xs" >Edit</button></p> -->
+					</div>
+				</div>
+
+			</div>
+
+			<!-- below is commented -->
+			<!-- <div class="col-xs-6" > -->
+
+				<!-- email -->
+				<!-- <div class="form-group row" >
+					<label for="email" class="control-label col-sm-4" >Email Address</label>
+					<div class="col-sm-8" >
+						<p class="form-control-static" > {{ user.email }} </p>
+					</div>
+				</div> -->
+
+				<!-- website -->
+				<!-- <div class="form-group row" >
+					<label for="website" class="control-label col-sm-4" >Website</label>
+					<div class="col-sm-8" >
+						<p class="form-control-static" > {{ user.website }} </p>
+					</div>
+				</div> -->
+
+				<!-- notes -->
+				<!-- <div class="form-group row" >
+					<label for="notes" class="control-label col-sm-4" >Notes</label>
+					<div class="col-sm-8" >
+						<p class="form-control-static" > {{ user.notes }} </p>
+					</div>
+				</div>
+			</div> -->
+			<!-- below is commented ends here -->
+
+
+		</div>
+	</form>
+</div>

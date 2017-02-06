@@ -1,0 +1,1000 @@
+ 1093  ls
+ 1094  cd ..
+ 1095  ls
+ 1096  cd ..
+ 1097  ls
+ 1098  ls -la
+ 1099  atom Gruntfile.js 
+ 1100  clear
+ 1101  ls
+ 1102  bower install
+ 1103  ls
+ 1104  clear
+ 1105  npm install
+ 1106  bower install
+ 1107  clear
+ 1108  ls
+ 1109  clear
+ 1110  grunt build
+ 1111  clear
+ 1112  history 
+ 1113  bower install font-awesome --save
+ 1114  ls
+ 1115  grunt build
+ 1116  clear
+ 1117  grunt build
+ 1118  grunt build --force
+ 1119  grunt build
+ 1120  grunt build --force
+ 1121  clear
+ 1122  yo angular:controller contact
+ 1123  clear
+ 1124  yo angular:route contact
+ 1125  clear
+ 1126  grunt build
+ 1127  grunt build --force
+ 1128  yo angular:route contact
+ 1129  yo angular:controller contact
+ 1130  clear
+ 1131  grunt build --force
+ 1132  ls
+ 1133  cd app/scripts/controllers/
+ 1134  ls
+ 1135  clear
+ 1136  rm -rf contact.js 
+ 1137  cd ../
+ 1138  cd views/
+ 1139  rm contact.html 
+ 1140  clear
+ 1141  cd ../../
+ 1142  grunt build --force
+ 1143  yo angular:route contact
+ 1144  grunt build --force
+ 1145  clear
+ 1146  npm install
+ 1147  grunt build --force
+ 1148  clear
+ 1149  yo angular:directive topNav
+ 1150  grunt build
+ 1151  grunt build --force
+ 1152  clear
+ 1153  ls
+ 1154  cd /var/www/html/AngularJS/
+ 1155  ls
+ 1156  cd BookManager/
+ 1157  ls
+ 1158  clear
+ 1159  grunt serve
+ 1160  grunt build
+ 1161  grunt build --force
+ 1162  grunt serve
+ 1163  grunt build --force
+ 1164  clear
+ 1165  grunt build --force
+ 1166  clear
+ 1167  grunt build --force
+ 1168  grunt serve
+ 1169  grunt build --force
+ 1170  grunt serve
+ 1171  npm install -g generator-ember
+ 1172  yo ember
+ 1173  clear
+ 1174  ls
+ 1175  grunt build
+ 1176  clear
+ 1177  cd ../
+ 1178  rm -rf BookManager/
+ 1179  mkdir BookManager
+ 1180  cd BookManager/
+ 1181  ls
+ 1182  yo angular Book
+ 1183  grunt serve
+ 1184  grunt build --force
+ 1185  grunt serve
+ 1186  grunt build --force
+ 1187  grunt serve
+ 1188  grunt build
+ 1189  grunt build --force
+ 1190  grunt serve
+ 1191  poweroff 
+ 1192  ls
+ 1193  cd /var/www/html/
+ 1194  ls
+ 1195  cd AngularJS/
+ 1196  ls
+ 1197  cd BookManager/
+ 1198  ls
+ 1199  clear
+ 1200  ls
+ 1201  grunt serve
+ 1202  grunt build --force
+ 1203  grunt serve
+ 1204  grunt build --force
+ 1205  grunt serve
+ 1206  grunt build --force
+ 1207  grunt serve
+ 1208  grunt build --force
+ 1209  exit
+ 1210  cd /var/www/html/
+ 1211  ls
+ 1212  cd AngularJS/
+ 1213  ls
+ 1214  cd BookManager/
+ 1215  ls
+ 1216  clear
+ 1217  atom package.json 
+ 1218  cd app/views/
+ 1219  ls
+ 1220  rm -rf contact
+ 1221  mkdir contact
+ 1222  cd contact/
+ 1223  ls
+ 1224  clear
+ 1225  ls
+ 1226  cd ..
+ 1227  rm -rf contact
+ 1228  ls
+ 1229  clear
+ 1230  cd ../../
+ 1231  ls
+ 1232  clear
+ 1233  bower install jcs-autoValidate --save
+ 1234  bower install angular-auto-validate --save
+ 1235  poweroff 
+ 1236  ls
+ 1237  clear
+ 1238  ls
+ 1239  clear
+ 1240  ls
+ 1241  cd /var/www/html/
+ 1242  ls
+ 1243  mkdir Bootstrap3
+ 1244  cd Bootstrap3/
+ 1245  clear
+ 1246  ls
+ 1247  clear
+ 1248  mkdir tutorial5
+ 1249  cd tutorial5/
+ 1250  ls
+ 1251  clear
+ 1252  bower install bootstrap
+ 1253  clear
+ 1254  ls
+ 1255  clear
+ 1256  ls
+ 1257  touch index.html
+ 1258  atom index.html 
+ 1259  cd ..
+ 1260  cp -rf tutorial5 tutorial6
+ 1261  clear
+ 1262  ls
+ 1263  cd tutorial6/
+ 1264  ls
+ 1265  atom index.html 
+ 1266  clear
+ 1267  atom index.html 
+ 1268  cd ../
+ 1269  cp -rf tutorial6 tutorial7
+ 1270  clear
+ 1271  cd tutorial7/
+ 1272  ls
+ 1273  clear
+ 1274  ls
+ 1275  atom index.html 
+ 1276  cd ..
+ 1277  cp -rf tutorial6 tutorial8
+ 1278  cd tutorial8/
+ 1279  ls
+ 1280  clear
+ 1281  ls
+ 1282  atom index.html 
+ 1283  ifconfig 
+ 1284  clear
+ 1285  cd ../
+ 1286  ls
+ 1287  cd tutorial6/
+ 1288  ls
+ 1289  clear
+ 1290  ls
+ 1291  nano index.html 
+ 1292  clear
+ 1293  cd ../
+ 1294  cd tutorial7/
+ 1295  ls
+ 1296  clear
+ 1297  nano index.html 
+ 1298  clear
+ 1299  cd ..
+ 1300  ls
+ 1301  cp -rf tutorial6 tutorial9
+ 1302  clear
+ 1303  ls
+ 1304  clear
+ 1305  cd tutorial9/
+ 1306  ls
+ 1307  clear
+ 1308  atom index.html 
+ 1309  cd ../
+ 1310  cp -rf tutorial6 tutorial10
+ 1311  cd tutorial10/
+ 1312  clear
+ 1313  atom index.html 
+ 1314  cd ..
+ 1315  cp -rf tutorial6 tutorial11
+ 1316  cd tutorial11/
+ 1317  clear
+ 1318  ls
+ 1319  clear
+ 1320  atom index.html 
+ 1321  clear
+ 1322  ls
+ 1323  clear
+ 1324  cd ..
+ 1325  ls
+ 1326  cp -rf tutorial6 tutorial12
+ 1327  clear
+ 1328  ls
+ 1329  cd tutorial12/
+ 1330  ls
+ 1331  clear
+ 1332  atom index.html 
+ 1333  cd ..
+ 1334  rm -rf tutorial12/
+ 1335  cp tutorial11 tutorial12
+ 1336  cd tutorial12
+ 1337  cp -rf tutorial11 tutorial12
+ 1338  cd tutorial12/
+ 1339  ls
+ 1340  clear
+ 1341  atom in
+ 1342  ls
+ 1343  atom index.html 
+ 1344  cd ../
+ 1345  cp -rf tutorial11 tutorial13
+ 1346  cd tutorial13/
+ 1347  atom index.html 
+ 1348  cd ..
+ 1349  clear
+ 1350  ls
+ 1351  clear
+ 1352  ls
+ 1353  cp -rf tutorial13 tutorial14
+ 1354  clear
+ 1355  cd tutorial14/
+ 1356  clear
+ 1357  ls
+ 1358  clear
+ 1359  atom index.html 
+ 1360  cd ../
+ 1361  cp -rf tutorial14 tutorial15
+ 1362  cd tutorial15/
+ 1363  clear
+ 1364  atom index.html 
+ 1365  cd ../
+ 1366  cp -rf tutorial15 tutorial16
+ 1367  cd tutorial16
+ 1368  clear
+ 1369  ls
+ 1370  clear
+ 1371  atom index.html 
+ 1372  clear
+ 1373  cd ..
+ 1374  clear
+ 1375  cp -rf tutorial16 tutorial17
+ 1376  cd tutorial17/
+ 1377  clear
+ 1378  ls
+ 1379  clear
+ 1380  atom index.html 
+ 1381  cd ../
+ 1382  cp -rf tutorial17 tutorial18
+ 1383  cd tutorial18
+ 1384  cd clear
+ 1385  clear
+ 1386  atom index.html 
+ 1387  cd /var/www/html/
+ 1388  ls
+ 1389  clear
+ 1390  cd Bootstrap3/
+ 1391  ls
+ 1392  clear
+ 1393  ls
+ 1394  cp -rf tutorial9 tutorial20
+ 1395  cd tutorial20/
+ 1396  ls
+ 1397  atom index.html 
+ 1398  cd ../
+ 1399  cd tutorial19
+ 1400  clear
+ 1401  ls
+ 1402  rm -rf tutorial20/
+ 1403  cp -rf tutorial18 tutorial19
+ 1404  cd tutorial19/
+ 1405  clear
+ 1406  ls
+ 1407  clear
+ 1408  atom index.html 
+ 1409  cd /opt
+ 1410  ls
+ 1411  cd gitHub/
+ 1412  ls
+ 1413  clear
+ 1414  ls
+ 1415  clear
+ 1416  ls
+ 1417  cd trainingapp/
+ 1418  ls
+ 1419  cd ..
+ 1420  clear
+ 1421  wget https://github.com/songlunglinh/Training.git
+ 1422  clear
+ 1423  ls
+ 1424  cd
+ 1425  c
+ 1426  clear
+ 1427  cd Downloads/
+ 1428  ls
+ 1429  clear
+ 1430  ls
+ 1431  chmod +x jd-gui_1.4.0-0_all.deb 
+ 1432  sudo dpkg -i jd-gui_1.4.0-0_all.deb 
+ 1433  clear
+ 1434  ping http://tuoitre.vn/
+ 1435  ping tuoitre.vn
+ 1436  nmap 103.42.56.68
+ 1437  ssh root@103.42.56.68
+ 1438  ftp 103.42.56.68
+ 1439  clear
+ 1440  poweroff 
+ 1441  teamviewer 
+ 1442  exit
+ 1443  teamviewer 
+ 1444  clear
+ 1445  ls
+ 1446  clear
+ 1447  ls
+ 1448  clear
+ 1449  ls
+ 1450  clear
+ 1451  ls
+ 1452  clear
+ 1453  cd /var/www/html/
+ 1454  ls
+ 1455  mkdir demo
+ 1456  cd demo/
+ 1457  bower install angular
+ 1458  bower install bootstrap
+ 1459  clear
+ 1460  ls
+ 1461  clear
+ 1462  ls
+ 1463  touch index.html
+ 1464  clear
+ 1465  atom index.html 
+ 1466  ls
+ 1467  bower install angular-route
+ 1468  clear
+ 1469  cd ../
+ 1470  mkdir demo2
+ 1471  cd ../
+ 1472  cp -rf demo demo2
+ 1473  clear
+ 1474  ls
+ 1475  cd html/
+ 1476  ls
+ 1477  clear
+ 1478  cp -rf demo demo2
+ 1479  clear
+ 1480  cd demo2/
+ 1481  ls
+ 1482  clear
+ 1483  ls
+ 1484  cp -rf demo/* .
+ 1485  ls
+ 1486  rm -rf demo
+ 1487  clear
+ 1488  ls
+ 1489  clear
+ 1490  bower install angular-material
+ 1491  ls
+ 1492  clear
+ 1493  atom index.html 
+ 1494  cd lib/js/
+ 1495  ls
+ 1496  rm -rf controller.js directive1.js service.js 
+ 1497  clear
+ 1498  cd ..
+ 1499  ls
+ 1500  cd ..
+ 1501  cd
+ 1502  clear
+ 1503  ls
+ 1504  clear
+ 1505  ls
+ 1506  cd material-start/
+ 1507  ls
+ 1508  git checkout old-master 
+ 1509  clear
+ 1510  ls
+ 1511  clear
+ 1512  cd ../
+ 1513  rm -rf material-start/
+ 1514  git clone https://github.com/angular/material-start.git
+ 1515  cd material-start/
+ 1516  ls
+ 1517  clear
+ 1518  ls
+ 1519  git checkout old-master 
+ 1520  clear
+ 1521  ls
+ 1522  clear
+ 1523  ls
+ 1524  cd /var/www/html/
+ 1525  ls
+ 1526  cd demo
+ 1527  cd ../demo2/
+ 1528  ls
+ 1529  rm -rf *
+ 1530  ls
+ 1531  clear
+ 1532  cp -rf /home/pvthuan/material-start/app .
+ 1533  ls
+ 1534  cp -rf app/* .
+ 1535  rm -rf app/
+ 1536  ls
+ 1537  clear
+ 1538  ls
+ 1539  atom index.html 
+ 1540  bower install angular-material
+ 1541  clear
+ 1542  ls
+ 1543  bower install angular
+ 1544  clear
+ 1545  cd
+ 1546  cd material-start/
+ 1547  ls
+ 1548  git checkout typescript 
+ 1549  clear
+ 1550  ls
+ 1551  mkdir -p /var/www/html/demo3
+ 1552  cd app/
+ 1553  cp -rf * /var/www/html/demo3/
+ 1554  ls
+ 1555  cd /var/www/html/demo3/
+ 1556  ls
+ 1557  clear
+ 1558  atom index.html 
+ 1559  bower install angular
+ 1560  bower install angular-material
+ 1561  clear
+ 1562  bower install angular-sanitize
+ 1563  clear
+ 1564  ls
+ 1565  cd ../
+ 1566  rm -rf demo3/
+ 1567  ls
+ 1568  clear
+ 1569  ls
+ 1570  cd Angular
+ 1571  cd AngularMaterial/
+ 1572  ls
+ 1573  clear
+ 1574  ls
+ 1575  clear
+ 1576  cd ../
+ 1577  rm -rf AngularMaterial/
+ 1578  lss
+ 1579  clear
+ 1580  ls
+ 1581  clear
+ 1582  ls
+ 1583  clear
+ 1584  ls
+ 1585  mkdir demo2
+ 1586  rm -rf demo2
+ 1587  mv demo AngularJS/
+ 1588  cd AngularJS/
+ 1589  ls
+ 1590  git add *
+ 1591  git commit -m "update demo"
+ 1592  clear
+ 1593  git push -u origin master
+ 1594  clear
+ 1595  git push -u origin master
+ 1596  clear
+ 1597  ls
+ 1598  clear
+ 1599  mkdir demo2
+ 1600  cd demo2/
+ 1601  ls
+ 1602  touch index.html
+ 1603  atom index.html 
+ 1604  bower install angular
+ 1605  ls
+ 1606  clear
+ 1607  mkdir assets
+ 1608  bower install angular-material
+ 1609  clear
+ 1610  teamviewer 
+ 1611  clear
+ 1612  ls
+ 1613  clear
+ 1614  ls
+ 1615  cd lib/
+ 1616  ls
+ 1617  cd ..
+ 1618  mkdir src
+ 1619  mv lib/js/app.js src/
+ 1620  rm -rf lib/
+ 1621  ls
+ 1622  rm src/students/Users.js 
+ 1623  ls
+ 1624  clear
+ 1625  ls
+ 1626  cd material-start/
+ 1627  ls
+ 1628  clear
+ 1629  ls
+ 1630  cat README.md 
+ 1631  clear
+ 1632  ls
+ 1633  cat README.md 
+ 1634  cd.
+ 1635  cd
+ 1636  clear
+ 1637  cd material-start/
+ 1638  git checkout es5-tutorial 
+ 1639  ls
+ 1640  cd app/
+ 1641  ls
+ 1642  clear
+ 1643  ls
+ 1644  clear
+ 1645  ls
+ 1646  geany tutorial_0.html 
+ 1647  ls
+ 1648  cp assets/app.css /var/www/html/AngularJS/demo2/assets/
+ 1649  clear
+ 1650  ls
+ 1651  geany tutorial_1.html 
+ 1652  geany tutorial_2.html 
+ 1653  geany tutorial_3.html 
+ 1654  geany tutorial_4.html 
+ 1655  geany src/users/Users.js
+ 1656  geany src/users/UserService.js 
+ 1657  geany src/users/UserController.js 
+ 1658  poweroff 
+ 1659  teamviewer 
+ 1660  clear
+ 1661  ls
+ 1662  cd /var/www/html/
+ 1663  ls
+ 1664  clear
+ 1665  cd Bootstrap3/
+ 1666  ls
+ 1667  clear
+ 1668  cd ..
+ 1669  ls
+ 1670  cd AngularJS/
+ 1671  ls
+ 1672  clear
+ 1673  ls
+ 1674  clear
+ 1675  ls
+ 1676  mkdir hntu
+ 1677  cd hntu/
+ 1678  ls
+ 1679  clear
+ 1680  ls
+ 1681  bower install angular
+ 1682  bower install bootstrap
+ 1683  clear
+ 1684  ls
+ 1685  clear
+ 1686  touch index.html
+ 1687  atom index.html 
+ 1688  ifconfig
+ 1689  poweroff 
+ 1690  clear
+ 1691  cd /var/www/html/
+ 1692  ls
+ 1693  clear
+ 1694  ls
+ 1695  cd AngularJS/
+ 1696  ls
+ 1697  clear
+ 1698  ls
+ 1699  cd hntu/
+ 1700  ls
+ 1701  clear
+ 1702  atom index.html 
+ 1703  cd ..
+ 1704  mkdir hntu2
+ 1705  cd hntu2/
+ 1706  ls
+ 1707  clear
+ 1708  touch index.html
+ 1709  atom index.html 
+ 1710  cd ../hntu
+ 1711  ls
+ 1712  atom index.html 
+ 1713  ls
+ 1714  cd lib/
+ 1715  ls
+ 1716  rm -rf css 
+ 1717  mkdir css
+ 1718  cd css/
+ 1719  ls
+ 1720  clear
+ 1721  touch app.css
+ 1722  cd ../../
+ 1723  bower install font-awesome
+ 1724  clear
+ 1725  ls
+ 1726  cd /var/www/html/AngularJS/
+ 1727  ls
+ 1728  cd hntu
+ 1729  ls
+ 1730  clear
+ 1731  ls
+ 1732  atom index.html 
+ 1733  cd src/
+ 1734  rm employee 
+ 1735  ls
+ 1736  clear
+ 1737  ls
+ 1738  mkdir employee
+ 1739  cd employee/
+ 1740  ls
+ 1741  clear
+ 1742  touch employee
+ 1743  mv employee employee.js
+ 1744  ls
+ 1745  clear
+ 1746  ls
+ 1747  clear
+ 1748  cd ..
+ 1749  touch app.js
+ 1750  poweroff 
+ 1751  ifconfig
+ 1752  clear
+ 1753  cd /var/www/html/AngularJS/hntu
+ 1754  ls
+ 1755  clear
+ 1756  atom index.html 
+ 1757  clear
+ 1758  cd ..
+ 1759  clear
+ 1760  ls
+ 1761  clear
+ 1762  mkdir chapter1
+ 1763  cd chapter1/
+ 1764  clear
+ 1765  touch index.html
+ 1766  mkdir css
+ 1767  mkdir js
+ 1768  clear
+ 1769  ls
+ 1770  cd ..
+ 1771  ls
+ 1772  cd demo
+ 1773  ls
+ 1774  cd ../
+ 1775  ls
+ 1776  clear
+ 1777  ls
+ 1778  cp demo/bower_components/bootstrap/dist/css/bootstrap.min.css .
+ 1779  clear
+ 1780  ls
+ 1781  mv bootstrap.min.css chapter1/css/
+ 1782  ls
+ 1783  cp demo/bower_components/angular/angular.min.js .
+ 1784  clear
+ 1785  ls
+ 1786  mv angular.min.js chapter1/js/
+ 1787  ls
+ 1788  clear
+ 1789  cd chapter1/
+ 1790  ls
+ 1791  clear
+ 1792  atom index.html 
+ 1793  cd js/
+ 1794  touch controller.js
+ 1795  clear
+ 1796  cd ..
+ 1797  ls
+ 1798  cd ../
+ 1799  ls
+ 1800  cp -rf demo/bower_components chapter1/
+ 1801  clear
+ 1802  ls
+ 1803  cd chapter1/
+ 1804  ls
+ 1805  cd js/
+ 1806  ls
+ 1807  rm angular.min.js 
+ 1808  cd ..
+ 1809  atom index.html 
+ 1810  cd ..
+ 1811  cp -rf chapter1 chapter2
+ 1812  cd chapter2/
+ 1813  clear
+ 1814  atom index.html 
+ 1815  ifconfig
+ 1816  clear
+ 1817  atom index.html 
+ 1818  rm -rf assets/
+ 1819  clear
+ 1820  ls
+ 1821  clear
+ 1822  cd js/
+ 1823  ls
+ 1824  clear
+ 1825  rm app.js 
+ 1826  rm config.js 
+ 1827  rm controller.js 
+ 1828  clear
+ 1829  ls
+ 1830  clear
+ 1831  cd ..
+ 1832  clear
+ 1833  ls
+ 1834  cp -rf chapter2 chapter4
+ 1835  cd chapter4/
+ 1836  ls
+ 1837  clear
+ 1838  ls
+ 1839  clear
+ 1840  ls
+ 1841  clear
+ 1842  atom index.html 
+ 1843  clear
+ 1844  ls
+ 1845  cd ..
+ 1846  cp -rf chapter4 chapter5
+ 1847  ls
+ 1848  clear
+ 1849  cd chapter5/
+ 1850  ls
+ 1851  clear
+ 1852  atom index.html 
+ 1853  poweroff 
+ 1854  cd /var/www/html/
+ 1855  ls
+ 1856  cd AngularJS/
+ 1857  ls
+ 1858  clear
+ 1859  cd chapter5/
+ 1860  ls
+ 1861  clear
+ 1862  ls
+ 1863  atom index.html 
+ 1864  ifconfig
+ 1865  clear
+ 1866  ifconfig
+ 1867  clear
+ 1868  ls
+ 1869  clear
+ 1870  cd ..
+ 1871  cp -rf chapter5 chapter6
+ 1872  ls
+ 1873  clear
+ 1874  cd chapter6/
+ 1875  ls
+ 1876  clear
+ 1877  ls
+ 1878  clear
+ 1879  ls
+ 1880  atom index.html 
+ 1881  poweroff 
+ 1882  clear
+ 1883  ls
+ 1884  cd /var/www/html/
+ 1885  ls
+ 1886  cd AngularJS/
+ 1887  ls
+ 1888  clear
+ 1889  ls
+ 1890  cd chapter6/
+ 1891  ls
+ 1892  clear
+ 1893  atom index.html 
+ 1894  poweroff 
+ 1895  cd /var/www/html/AngularJS/
+ 1896  ls
+ 1897  cd chapter6/
+ 1898  ls
+ 1899  clear
+ 1900  atom index.html 
+ 1901  reboot
+ 1902  git clone https://github.com/mujib2953/Learning-Web-Development-with-Bootstrap-and-AngularJS.git
+ 1903  cd Learning-Web-Development-with-Bootstrap-and-AngularJS/
+ 1904  ls
+ 1905  cp -rf Chapter\ 6 /var/www/html/chapter6
+ 1906  cd /var/www/html/
+ 1907  ls
+ 1908  cd chapter6/
+ 1909  ls
+ 1910  clear
+ 1911  cd lesson\ 2/
+ 1912  ls
+ 1913  atom index.html 
+ 1914  ls
+ 1915  clear
+ 1916  bower install angular-sanitize
+ 1917  poweroff 
+ 1918  cd /var/www/html/
+ 1919  l
+ 1920  ls
+ 1921  cd chapter6/
+ 1922  ls
+ 1923  clear
+ 1924  cd lesson\ 2/
+ 1925  ls
+ 1926  atom index.html 
+ 1927  ls
+ 1928  cd partials/
+ 1929  ls
+ 1930  cat gravtar.html 
+ 1931  cd ..
+ 1932  ls
+ 1933  atom index.html 
+ 1934  git status
+ 1935  clear
+ 1936  ls
+ 1937  clear
+ 1938  exit
+ 1939  cd /var/www/html/chapter6/
+ 1940  ls
+ 1941  cd lesson\ 2/
+ 1942  ls
+ 1943  atom index.html 
+ 1944  cd ../../AngularJS/chapter6
+ 1945  ls
+ 1946  clear
+ 1947  atom index.html 
+ 1948  cd ..
+ 1949  mv chapter6 chapter6.oak
+ 1950  mkdir chapter6
+ 1951  cd chapter6
+ 1952  ls
+ 1953  clear
+ 1954  ls
+ 1955  cd ..
+ 1956  cp -rf chapter6.oak/* chapter6/
+ 1957  cd chapter6
+ 1958  ls
+ 1959  clear
+ 1960  ls
+ 1961  rm -rf js
+ 1962  rm -rf css
+ 1963  clear
+ 1964  ls
+ 1965  rm -rf assets/
+ 1966  ls
+ 1967  clear
+ 1968  atom index.html 
+ 1969  ls
+ 1970  clear
+ 1971  ls
+ 1972  cd /var/www/html/
+ 1973  ls
+ 1974  cd chapter6/lesson\ 2/
+ 1975  ls
+ 1976  cat index.html 
+ 1977  clear
+ 1978  cat index.html 
+ 1979  ifconfig
+ 1980  clear
+ 1981  cd
+ 1982  cd /opt
+ 1983  ls
+ 1984  cd /var/www/html/
+ 1985  ls
+ 1986  clear
+ 1987  ls
+ 1988  cd
+ 1989  clear
+ 1990  cd /opt/gitHub/
+ 1991  ls
+ 1992  git clone https://github.com/peterpilgrim/javaee7-developer-handbook.git
+ 1993  cd 
+ 1994  cd /var/www/html/
+ 1995  ls
+ 1996  git clone https://github.com/Apress/beg-responsive-web-design-w-html5-css3.git
+ 1997  clear
+ 1998  ls
+ 1999  git clone https://github.com/Apress/pro-angularjs.git
+ 2000  poweroff 
+ 2001  ls
+ 2002  cd /var/www/html/
+ 2003  ls
+ 2004  rm -rf chapter6/
+ 2005  ls
+ 2006  clear
+ 2007  ls
+ 2008  cd AngularJS/
+ 2009  ls
+ 2010  clear
+ 2011  mkdir Angular-Material
+ 2012  cd Angular-Material/
+ 2013  ls
+ 2014  clear
+ 2015  ls
+ 2016  touch index.html
+ 2017  atom index.html 
+ 2018  ls
+ 2019  bower install angular
+ 2020  bower install angular-material
+ 2021  atom index.html 
+ 2022  clear
+ 2023  atom index.html 
+ 2024  cd ../
+ 2025  ls
+ 2026  cd chapter6
+ 2027  ls
+ 2028  clear
+ 2029  ls
+ 2030  clear
+ 2031  atom index.html 
+ 2032  ls
+ 2033  clear
+ 2034  bower install AngularStrap
+ 2035  bower install angular-strap
+ 2036  cd ..
+ 2037  cp -rf chapter6 chapter7
+ 2038  ls
+ 2039  cd chapter7/
+ 2040  ls
+ 2041  clear
+ 2042  atom index.html 
+ 2043  bower install angular-animate
+ 2044  clear
+ 2045  bower install angular-motion
+ 2046  ls
+ 2047  cd bower_components/
+ 2048  ls
+ 2049  clear
+ 2050  ls
+ 2051  cd bootstrap/
+ 2052  ls
+ 2053  clear
+ 2054  ls -la
+ 2055  npm install -g grunt-cli
+ 2056  ls
+ 2057  clear
+ 2058  npm install
+ 2059  clear
+ 2060  ls
+ 2061  grunt package.json 
+ 2062  clear
+ 2063  history 
+ 2064  grunt build
+ 2065  clear
+ 2066  ls
+ 2067  grunt
+ 2068  grunt build
+ 2069  clear
+ 2070  ls -la
+ 2071  ls
+ 2072  cd grunt/
+ 2073  ls
+ 2074  clear
+ 2075  ls
+ 2076  grunt build
+ 2077  clear
+ 2078  ls
+ 2079  clear
+ 2080  cd ..
+ 2081  ls
+ 2082  cd dist/
+ 2083  ls
+ 2084  clear
+ 2085  cd ..
+ 2086  ls
+ 2087  clear
+ 2088  ls -la
+ 2089  grunt package.js
+ 2090  clear
+ 2091  history
+ 2092  history >> demo.txt

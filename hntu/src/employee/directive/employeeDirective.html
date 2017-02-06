@@ -1,0 +1,30 @@
+<div class="col-md-9 col-xs-9 col-lg-9 col-sm-9" ng-controller="employeeController">
+  <div class="panel-group">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Employee Manager </div>
+      <div class="panel-body">
+        <table class="table table-bordered table-responsive">
+          <tr>
+            <th>STT</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Age</th>
+            <th>Sex</th>
+            <td>Action</td>
+          </tr>
+          <tr ng-repeat="e in employees | filter : search">
+            <td>{{e.stt}}</td>
+            <td>{{e.name}}</td>
+            <td>{{e.address}}</td>
+            <td>{{e.age}}</td>
+            <td>{{e.sex}}</td>
+            <td>
+              <i class="fa fa-pencil-square-o" aria-hidden="true">Edit</i>&nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

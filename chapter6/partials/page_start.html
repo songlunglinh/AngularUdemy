@@ -1,0 +1,36 @@
+<!-- <div ng-controller = "IndexCtrl" > -->
+<div>
+	<div class="page-header" >
+		<h2>{{ pageHeader }}</h2>
+	</div>
+	<div class="table-responsive " >
+		<table class="table table-border table-stripped table-hover table-condensed">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Address</th>
+					<th>Email</th>
+          <th>Phone</th>
+          <th>Age</th>
+          <th>Sex</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat = 'e in employees | filter: searchText' >
+					<td> {{ e.name }} </td>
+					<td> {{ e.address }} </td>
+					<td> {{ e.email }} </td>
+          <td> {{ e.phone }}</td>
+          <td> {{ e.age }} </td>
+          <td> {{e.sex }} </td>
+					<td>
+						<a href="#/gravtar/{{ $index }}" class="btn btn-primary btn-xs" >View</a>
+						<a ng-click = 'removeUser( $index )' class="btn btn-danger btn-xs" >delete</a>
+					</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+</div>

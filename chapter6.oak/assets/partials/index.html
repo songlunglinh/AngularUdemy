@@ -1,0 +1,31 @@
+<div class="page-header">
+  <h1>All Employee</h1>
+</div>
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <!--<th>No.</th>-->
+        <th>Name</th>
+        <th>Address</th>
+        <th>Email Address</th>
+        <th>Phone</th>
+        <th>Age</th>
+        <th>Sex</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+      <tbody>
+        <tr ng-repeat="e in employees | filter:search">
+          <!--<td>{{$index + 1}}</td>-->
+          <td>{{e.name}}</td>
+          <td>{{e.address}}</td>
+          <td>{{e.email}}</td>
+          <td>{{e.phone}}</td>
+          <td>{{e.age}}</td>
+          <td>{{e.sex}}</td>
+          <td><a href="#" class="btn btn-default btn-xs">View</a></td>
+        </tr>
+     </tbody>
+   </table>
+</div>
